@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         if (targetButton.id === 'button1') {
-          window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/web/P4web-checkbutton01/index.html';
+          window.location.href = 'P4web-checkbutton01/index.html';
         }
       }
     });
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         buttonForm.appendChild(nextButton);
 
     nextButton.addEventListener('click', function () {
-      window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/web/P4web-checkbutton01/index.html';
+      window.location.href = 'P4web-checkbutton01/index.html';
   });
 
     var printButton = document.createElement('input');
