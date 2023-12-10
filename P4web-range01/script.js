@@ -4,6 +4,5 @@ function updateOpacity(value) {
   }
 
   function navigateToNextPage() {
-    // 跳转到下一页的 URL
-    window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/web/P4web-color01/index.html';
+    window.location.href = 'P4web-color01/index.html';
   }
