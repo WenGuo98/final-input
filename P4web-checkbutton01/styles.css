@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+  }
+  .rounded-rectangle {
+    width: 1400px;
+    height: 750px;
+    border: 1px solid  rgba(100, 123, 138, 0); 
+    border-radius: 20px; 
+    background-color: transparent; 
+  }
+
+  #radioForm input[type="radio"] {
+    width: 60px;
+    height: 60px;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(171, 171, 171);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 55px;
+    right: 165px;
+  }
+
+  .circle2 {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 55px;
+    right: 100px;
+  }

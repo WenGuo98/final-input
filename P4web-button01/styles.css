@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+  }
+  .rounded-rectangle {
+    width: 1350px;
+    height: 750px;
+    border: 1px solid  rgba(100, 123, 138, 0); 
+    border-radius: 20px; 
+    background-color: transparent; 
+  }
+
+  #printButton {
+    width: 90px; 
+    height: 21px; 
+    font-size: 13px;
+}
