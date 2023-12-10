@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function navigateToNextPage() {
-    window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/web/P4web-button01/index.html';
+    window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/final%20web/final-input/P4web-button01/index.html';
   }
 
   function printCurrentPage() {

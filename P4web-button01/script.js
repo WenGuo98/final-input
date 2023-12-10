@@ -8,11 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         var randomColor = getRandomColor();
         targetButton.style.backgroundColor = randomColor;
-
-
-        if (targetButton.id === 'button1') {
-          window.location.href = 'P4web-checkbutton01/index.html';
-        }
       }
     });
 
@@ -35,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         buttonForm.appendChild(nextButton);
 
     nextButton.addEventListener('click', function () {
-      window.location.href = 'P4web-checkbutton01/index.html';
+      window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/final%20web/final-input/P4web-checkbutton01/index.html';
   });
 
     var printButton = document.createElement('input');
@@ -50,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     printButton.addEventListener('click', function () {
-      // 触发打印操作
       window.print();
   });
 

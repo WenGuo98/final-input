@@ -44,11 +44,15 @@ body {
   }
 
   #resetButton {
-    width: 200px; 
-    height: 80px; 
-    font-size: 30px; 
-    border-radius: 10px; 
-    background-color: rgb(131, 188, 226); 
-    color: #ffffff; 
-    font-family:  "Courier New", monospace, Helvetica;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: rgb(131, 188, 226);
+    color: #ffffff;
+    font-family: "Courier New", monospace, Helvetica;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
