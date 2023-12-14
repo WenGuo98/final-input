@@ -4,5 +4,5 @@ function updateOpacity(value) {
 }
 
 function navigateToNextPage() {
-  window.location.href = 'P4web-color01/index.html';
+  window.location.href = '../P4web-color01/index.html';
 }
