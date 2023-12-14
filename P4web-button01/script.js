@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
         buttonForm.appendChild(nextButton);
 
     nextButton.addEventListener('click', function () {
-      window.location.href = 'file:///Users/artemis/Desktop/Web%20to%20Print/F/final%20web/final-input/P4web-checkbutton01/index.html';
+      window.location.href = '../P4web-checkbutton01/index.html';
   });
 
     var printButton = document.createElement('input');
